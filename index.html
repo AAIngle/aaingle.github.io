@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="delta.css">
         <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="viewport" content="blog-based game reviews website called Delta Game Reviews, reviewing Elden Ring, Outer Wilds, Stray, and more">
     </head>
     <body>
         <div id="wrapper">
@@ -16,21 +17,35 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="reviews.html">Reviews</a></li>
+                <li><div class="dropdown">
+                    <button class="dropbtn">Reviews
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="game1.html">Outer Wilds</a>
+                        <a href="game2.html">Stray</a>
+                        <a href="game3.html">Elden Ring</a>
+                    </div>
+                    </div>
+                </li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div class="splash" id="homesplash">
+        <div class="splash" id="homesplash" alt="panorama of an observatory surrounded by trees from the game Outer Wilds">
             <a href="game1.html">Latest Review</a>
         </div>
         <div class="contentL">
+            <small>Image sourced from <a href="https://store.steampowered.com/app/753640/Outer_Wilds/"> Outer Wilds Steam page</a></small>
                 <h2>About</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit.
+                <p>Game review websites can be contentious in 
+                     the gaming space for reductive scores, quick 
+                     turnarounds, appealing more to algorithms or hype cycles.
+                     I think these things distract from the purpose of reviews in the first place.
+                     <br><br>
+                     I made this blog to demonstrate what I think reviews are for -- 
+                     balancing the subjective and objective, reflecting on how games
+                     and opinions change over time, and encouraging evaluations 
+                     from different perspectives. I hope you enjoy!
                 </p>
         </div>
         <div class="contentR">
@@ -50,9 +65,9 @@
             </table>
         </div>
         <footer>
+            <a href="#top">Back to top</a>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="reviews.html">Reviews</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
                 Copyright &copy; 2025 Delta Game Reviews<br>

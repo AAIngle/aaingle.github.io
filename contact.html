@@ -5,6 +5,8 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="delta.css">
         <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="viewport" content="a contact page with a form for feedback on reviews, game 
+        recommendations, or other comments for the reviewer">
     </head>
     <body>
         <div id="wrapper">
@@ -16,13 +18,26 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="reviews.html">Reviews</a></li>
+                <li><div class="dropdown">
+                    <button class="dropbtn">Reviews
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="game1.html">Outer Wilds</a>
+                        <a href="game2.html">Stray</a>
+                        <a href="game3.html">Elden Ring</a>
+                    </div>
+                    </div>
+                </li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div class="splash" id="reviewssplash">Contact</div>
+        <div class="splash" id="reviewssplash" alt="the games Outer Wilds, Elden Ring, and Portal depicted in a banner image">Contact</div>
         <main>
-            <h2>Agree with my reviews? Disagree? Have recommendations?</h2>
+            <small>All images sourced from Steam (<a href="https://store.steampowered.com/app/753640/Outer_Wilds/">Right</a>
+                                            <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/">Center</a>
+                                            <a href="https://store.steampowered.com/app/400/Portal/">Left</a>)</small>
+            <h2>Agree with my reviews? Disagree? Have recommendations? Anything game related?</h2>
             <h3>Leave your thoughts!</h3>
             <p>Required fields are marked with an asterisk *.</p>
             <form method="post" action="#">
@@ -49,9 +64,9 @@
         <div class="main2">
         </div>
         <footer>
+            <a href="#top">Back to top</a>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="reviews.html">Reviews</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
                 Copyright &copy; 2025 Delta Game Reviews<br>
